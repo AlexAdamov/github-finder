@@ -11,7 +11,7 @@ function About() {
           </a>{' '}
           Udemy course by
           <strong>
-            <a href='https://traversymedia.com'> Brad Traversy</a>
+            <a href='https://traversymedia.com'> Brad Traversy {process.env.REACT_APP_GITHUB_TOKEN}</a>
           </strong>
           .
         </p>
